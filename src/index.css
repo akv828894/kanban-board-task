@@ -1,0 +1,73 @@
+:root {
+  --bg-1: #f6faf5;
+  --bg-2: #ebf5ee;
+  --bg-3: #dfeee4;
+  --text-main: #153221;
+  --text-muted: #365e48;
+  --surface-soft: #ffffffc4;
+  --surface: #ffffff;
+  --border-soft: #c8dfcf;
+  --badge-bg: #e2f1e5;
+  --badge-border: #bdd7c1;
+  --chip-bg: #ecf2ed;
+  --chip-text: #234932;
+  --accent: #1f7f47;
+  --accent-focus: #5b9d71;
+  --action-border: #adc8b5;
+  --action-bg: #f6fbf7;
+  --action-text: #184127;
+  --danger-border: #d67f7f;
+  --danger-bg: #fff3f3;
+  --danger-text: #a02b2b;
+  --priority-high: #d84a4a;
+  --priority-medium: #ddbe46;
+  --priority-low: #40a262;
+  --shadow-card: 0 2px 10px rgba(20, 50, 33, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.45;
+  color: var(--text-main);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img,
+svg,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
